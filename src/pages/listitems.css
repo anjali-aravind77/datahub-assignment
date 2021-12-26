@@ -1,0 +1,36 @@
+.search-box {
+     width: 300px;
+  height: 30px;
+  border-style: groove;
+  border-color: rgb(49, 129, 233);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.serachBar {
+    display: flex;
+    margin-top: 30px;
+    /* align-content: flex-end; */
+    justify-content: flex-end;
+}
+.input-search {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  .buttonList {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 8px 5px 8px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 5px;
+  }

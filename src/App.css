@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding:  0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+    margin: 0;
+    padding:  0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+    list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.side-bar {
+    position: fixed;
+    background-color: rgb(151, 226, 231);
+    width: 200px;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 30px 20px; 
+    
 }
 
-.App-link {
-  color: #61dafb;
+.heading-sb {
+    margin: 10% 25%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.side-bar .menu-items {
+    display: block;
+    font-size: small;
+
+}
+
+
+.side-bar .menu-items .sub-menu {
+    margin-left: 20px;
+    padding-left: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .2s ease-in;
+    text-decoration: none;
+}
+
+.side-bar .menu-items .sub-menu.active {
+    max-height: 300px;
+}
+
+/* .side-bar .menu-items .sub-menu a {
+    display: block;
+    margin: 5px 0;
+    font-size: 15px;
+} */
+
+/* .side-menu .main-menu .sub-menu a.active{
+   
+    display: block;
+    
+    border-radius: 5px;
+    color: #fff;
+
+} */
+
+.menu-list {
+    color: rgb(46, 45, 45);
+}
+.sub-items {
+    color: rgb(44, 40, 40);
+}
+
+.side-bar .menu-items .menu-list .menu-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    /* background: black; */
+}
+
+.container {
+    margin-left: 300px;
+}
+
+.downIcon {
+    padding-left: 20px;
+}
+
+.charts {
+    display: inline-flex;
 }

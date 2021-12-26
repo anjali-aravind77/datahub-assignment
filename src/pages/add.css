@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.formHeader {
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+.formTable {
+    /* width: 100%; */
+    border-style: none;
+}
+.formCol {
+    padding-left: 10px;
+}
+.FormTextBox {
+    width: 300px;
+    padding-left: 10px;
+}
+.FormSTextBox {
+    width: 635px;
+}
+.btnDiv {
+    padding-left: 10px;
+    padding-top: 15px;
+    /* margin-top: ; */
+}
+.buttonAdd {
+    font: bold 11px Arial;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 5px 8px 5px 8px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+.buttonAdd:hover {
+    background-color: rgb(47, 240, 29);
+}
